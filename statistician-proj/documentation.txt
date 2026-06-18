@@ -1,0 +1,97 @@
+:::::::::::::::IMPORTANT:::::::::::::::
+SUMMARY FOR CREATING AND USING namespace
+- Any items that are not explicitly placed in a namespace become part of the 
+  so-called global namespace. These items can be used at any point
+  without any need for a using statement or a scope resolution operator.
+- If you use the new C++ header file names such as
+  <iostream> or <cstdlib>), then all of the items in the C++ Standard Library are 
+  automatically part of the std namespace. The simplest way to use these items is to 
+  place a using directive after the include statements: using namespace std;
+  
+
+  - On the other hand, if you use the old C++ header file names (such as <iostream.h> or
+    <stdlib.h>), then the items are part of the global namespace, so that no using 
+    statement or scope resolution operator is needed.
+
+
+- To use a nmaesapce, put a using directive in the .cpp or .cxx file, such as 
+  using namespace mahsan_stats_2C;
+
+
+  - to use a single item from a namespace, put a specific using directive after all include statements
+    Example: 
+       using namespace mahsan_stats_2C::<the name of the item>;
+- never put a using statement in a header file
+- only use "using namespace std;" in a .cpp file, not in a .h file
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CONSTRUCTOR for the statistician class:
+//   statistician( );
+//     Postcondition: The object has been initialized, and is ready to accept
+//     a sequence of numbers. Various statistics will be calculated about the
+//     sequence.
+
+// my notes: for this constructor, we simply initialize all of the member vars to 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::::::::::::MISCELLANEOUS::::::::::::
+
+
+x = -1.0
+
+x = -1.0 + 1.3;
+
+y = 0.8
+y = y + (-1.4);
+y = 0.8 - 1.4 = -0.6
+
+when we want to move a point 90 degrees clockwise, we swap the coordinates and negate the y-coordinate
+example: 
+if x = -1.0 and y = 4.0,
+then after moving the point 90 degrees clockwise, x = 4.0 and y = 1.0;
+
