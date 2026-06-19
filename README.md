@@ -25,10 +25,10 @@ A class designed to track statistics (such as count, sum, mean, smallest, and la
 ### 3. [sequence-proj-dds](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds)
 Very similar to sequence-proj (1), except for the fact that it uses dynamic memory, meaning data structure resizes based on needs.
 dds -> dynamic data structure
-* **[sequence2.h](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence2.h)**: Header declaring the `statistician` class interface.
-* **[sequence2.cxx](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence2.cxx)**: Implementation of the statistician mathematical tracking functions.
-* **[sequence_exam.cxx](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence_exam.cxx)**: Automated test suite verifying the statistician functions.
-* **[sequence_test.cxx](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence_test.cxx)**: Interactive driver program to test statistician instances.
+* **[sequence2.h](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence2.h)**: Header declaring the `sequence` class interface.
+* **[sequence2.cxx](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence2.cxx)**: Implementation of the `sequence` class member functions.
+* **[sequence_exam.cxx](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence_exam.cxx)**: Automated test suite checking all invariants (scoring out of 100).
+* **[sequence_test.cxx](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds/sequence_test.cxx)**: Interactive driver program to test `sequence` instances.
 
 ## How to Compile & Run C++ Projects
 
