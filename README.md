@@ -22,8 +22,8 @@ A class designed to track statistics (such as count, sum, mean, smallest, and la
 
 ---
 
-### 2. [statistician-proj-dds](file:///Users/meftahulahsan/cpp_projects/statistician-proj-dds)
-Very similar to statistician-proj, except for the fact that it uses dynamic memory, meaning data structure resizes based on needs.
+### 3. [sequence-proj-dds](file:///Users/meftahulahsan/cpp_projects/sequence-proj-dds)
+Very similar to sequence-proj (1), except for the fact that it uses dynamic memory, meaning data structure resizes based on needs.
 dds -> dynamic data structure
 * **[stats.h](file:///Users/meftahulahsan/cpp_projects/statistician-proj/stats.h)**: Header declaring the `statistician` class interface.
 * **[stats.cxx](file:///Users/meftahulahsan/cpp_projects/statistician-proj/stats.cxx)**: Implementation of the statistician mathematical tracking functions.
